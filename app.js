@@ -14,3 +14,8 @@
 // for(i = 1 ;i <= tableLen; i++){
 //     document.write(`${tableOf} x ${i} = ${tableOf * i}  <br>`)
 // }
+
+var fruits = ["apple","banana","mango","orange","strawberry"];
+for(i = 0 ; i < fruits.length; i++){
+    document.write(`${fruits[i]} <br>`)
+}
