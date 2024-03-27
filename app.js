@@ -25,3 +25,4 @@ element at index ${fruits.indexOf("banana")} is ${fruits[1]}<br>
 element at index ${fruits.indexOf("mango")} is ${fruits[2]}<br>
 element at index ${fruits.indexOf("orange")} is ${fruits[3]}<br>
 element at index ${fruits.indexOf("strawberry")} is ${fruits[4]}<br>`)
+   
