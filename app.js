@@ -17,5 +17,9 @@
 
 var fruits = ["apple","banana","mango","orange","strawberry"];
 for(i = 0 ; i < fruits.length; i++){
-    document.write(`${fruits[i]} <br>`)
+    document.write(fruits[i] + "<br>")
 }
+document.write(`<br><br> 
+element at index ${fruits.indexOf("apple")} is ${fruits[0]}<br>
+element at index ${fruits.indexOf("banana")} is ${fruits[1]}<br>
+element at index ${fruits.indexOf("mango")} is ${fruits[2]}<br>`)
