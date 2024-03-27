@@ -26,6 +26,12 @@
 // element at index ${fruits.indexOf("orange")} is ${fruits[3]}<br>
 // element at index ${fruits.indexOf("strawberry")} is ${fruits[4]}<br>`)
    
-var daysNames = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
-var date = new Date("15 sep, 1989");
-document.write(daysNames[date.getDay()])
+// var daysNames = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+// var date = new Date("15 sep, 1989");
+// document.write(date.getTime())
+
+var eid = new Date("june 16, 2024")
+var now = new Date()
+var diff = eid.getTime() - now.getTime()
+var res = Math.floor(diff / 86400000)
+document.write(`Days left ${res} till Eid-ul-Adha`)
