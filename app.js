@@ -15,14 +15,17 @@
 //     document.write(`${tableOf} x ${i} = ${tableOf * i}  <br>`)
 // }
 
-var fruits = ["apple","banana","mango","orange","strawberry"];
-for(i = 0 ; i < fruits.length; i++){
-    document.write(fruits[i] + "<br>")
-}
-document.write(`<br><br> 
-element at index ${fruits.indexOf("apple")} is ${fruits[0]}<br>
-element at index ${fruits.indexOf("banana")} is ${fruits[1]}<br>
-element at index ${fruits.indexOf("mango")} is ${fruits[2]}<br>
-element at index ${fruits.indexOf("orange")} is ${fruits[3]}<br>
-element at index ${fruits.indexOf("strawberry")} is ${fruits[4]}<br>`)
+// var fruits = ["apple","banana","mango","orange","strawberry"];
+// for(i = 0 ; i < fruits.length; i++){
+//     document.write(fruits[i] + "<br>")
+// }
+// document.write(`<br><br> 
+// element at index ${fruits.indexOf("apple")} is ${fruits[0]}<br>
+// element at index ${fruits.indexOf("banana")} is ${fruits[1]}<br>
+// element at index ${fruits.indexOf("mango")} is ${fruits[2]}<br>
+// element at index ${fruits.indexOf("orange")} is ${fruits[3]}<br>
+// element at index ${fruits.indexOf("strawberry")} is ${fruits[4]}<br>`)
    
+var daysNames = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+var date = new Date("15 sep, 1989");
+document.write(daysNames[date.getDay()])
