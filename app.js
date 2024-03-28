@@ -40,11 +40,19 @@
 // document.write(`days left ${days} till Eid-ul-Adha<br>`)
 // document.write(`hours left ${hours} till Eid-ul-Adha<br>`)
 
-var user = prompt("enter to search palindrom word")
-var palindrom = ["hello","level","civic"]
-var neww = palindrom[i].toString().split("").reverse("").join("")
-for(i =0 ;i < palindrom.length;i++){
-    if(user === neww){
-        document.write(`${neww} is palindrom`)
+var palindrome = prompt("enter to search palindrome")
+var check = false
+var user = prompt("enter again a palindrome word")
+for(i = palindrome.length; i > 0; i--){
+    for(j = 0; j < user.length;j++){
+        if(palindrome[i] === user[j]){
+            check = true
+            document.write(`yes palindrome`)
+break
+        }
+        break
     }
+}
+if(check === false){
+    document.write(`no this is not palindrome`)
 }
