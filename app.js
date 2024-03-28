@@ -30,12 +30,21 @@
 // var date = new Date("15 sep, 1989");
 // document.write(date.getTime())
 
-var eid = new Date("june 16, 2024")
-var now = new Date()
-var diff = eid.getTime() - now.getTime()
-var months = Math.floor(diff / 86400000 / 31)
-var days = Math.floor(diff / 86400000 )
-var hours = Math.floor(diff  / 1000 / 60 / 60)
-document.write(`months left ${months} till Eid-ul-Adha<br>`)
-document.write(`days left ${days} till Eid-ul-Adha<br>`)
-document.write(`hours left ${hours} till Eid-ul-Adha<br>`)
+// var eid = new Date("june 16, 2024")
+// var now = new Date()
+// var diff = eid.getTime() - now.getTime()
+// var months = Math.floor(diff / 86400000 / 31)
+// var days = Math.floor(diff / 86400000 )
+// var hours = Math.floor(diff  / 1000 / 60 / 60)
+// document.write(`months left ${months} till Eid-ul-Adha<br>`)
+// document.write(`days left ${days} till Eid-ul-Adha<br>`)
+// document.write(`hours left ${hours} till Eid-ul-Adha<br>`)
+
+var user = prompt("enter to search palindrom word")
+var palindrom = ["hello","level","civic"]
+var neww = palindrom[i].toString().split("").reverse("").join("")
+for(i =0 ;i < palindrom.length;i++){
+    if(user === neww){
+        document.write(`${neww} is palindrom`)
+    }
+}
