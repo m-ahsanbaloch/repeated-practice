@@ -73,13 +73,20 @@
 // }
 
 
-var user = prompt("Enter your name: ")
-for(i = user.length -1; i > 0 ;i--){
-  // document.write(user[i]);
-  var neww = user[i]
-  console.log(user[i])
-  if(neww == "level"){
-    document.write("yes it is palindrome");
-    break
-  }
-}
+// var user = prompt("Enter your name: ")
+// for(i = user.length -1; i > 0 ;i--){
+//   // document.write(user[i]);
+//   var neww = user[i]
+//   console.log(user[i])
+//   if(neww == "level"){
+//     document.write("yes it is palindrome");
+//     break
+//   }
+// }
+
+// var num = +prompt("enter number") // factorial of any number 
+// var fact = 1
+// for(i = 1 ; i <= num;i++){
+//   fact = fact * i
+//   console.log(fact)
+// }
