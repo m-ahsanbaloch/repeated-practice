@@ -64,10 +64,22 @@
 // }
 // else{document.write(`no ${user} is not palindrome!!`)}
 
-var user = prompt("enter");
-for (i = 0; i < user.length; i++) {
-  if (user == user.split('').reverse('').join('')) {
-    document.write(`yes it is palindrome`);
+// var user = prompt("enter");
+// for (i = 0; i < user.length; i++) {
+//   if (user == user.split('').reverse('').join('')) {
+//     document.write(`yes it is palindrome`);
+//     break
+//   }
+// }
+
+
+var user = prompt("Enter your name: ")
+for(i = user.length -1; i > 0 ;i--){
+  // document.write(user[i]);
+  var neww = user[i]
+  console.log(user[i])
+  if(neww == "level"){
+    document.write("yes it is palindrome");
     break
   }
 }
