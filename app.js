@@ -1,4 +1,4 @@
-// chapter 17 20 
+// chapter 17 20
 
 // var arr = []
 
@@ -19,13 +19,13 @@
 // for(i = 0 ; i < fruits.length; i++){
 //     document.write(fruits[i] + "<br>")
 // }
-// document.write(`<br><br> 
+// document.write(`<br><br>
 // element at index ${fruits.indexOf("apple")} is ${fruits[0]}<br>
 // element at index ${fruits.indexOf("banana")} is ${fruits[1]}<br>
 // element at index ${fruits.indexOf("mango")} is ${fruits[2]}<br>
 // element at index ${fruits.indexOf("orange")} is ${fruits[3]}<br>
 // element at index ${fruits.indexOf("strawberry")} is ${fruits[4]}<br>`)
-   
+
 // var daysNames = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
 // var date = new Date("15 sep, 1989");
 // document.write(date.getTime())
@@ -56,9 +56,18 @@
 // if(check === false){
 //     document.write(`no this is not palindrome`)
 // }
-var user = prompt("e")
-var  pa = user
-var res = pa.split("").reverse("").join("")
-if(user === res){
-console.log(`yes`)
+// var user = prompt("enter to check if this word is palindrome or not");
+// var palindrome = user
+// var convert = palindrome.split('').reverse('').join('')
+// if(user === convert){
+//     document.write(`yes ${user}  is palindrome`)
+// }
+// else{document.write(`no ${user} is not palindrome!!`)}
+
+var user = prompt("enter");
+for (i = 0; i < user.length; i++) {
+  if (user == user.split('').reverse('').join('')) {
+    document.write(`yes it is palindrome`);
+    break
+  }
 }
