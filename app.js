@@ -94,3 +94,22 @@
 //   fact = fact * i
 //   console.log(fact)
 // }
+
+
+
+var cap = "ABCDEFGHI"
+var capPasswrod = ""
+for(let i=0;i < 6;i++){
+  randomValue = Math.floor(Math.random() * cap.length )
+  capPasswrod += capPasswrod[randomValue] 
+  break
+}
+
+var small = "abcdefghi"
+var smallPass = ""
+for(i = 0 ; i < 6;i++){
+  randomValue = Math.floor(Math.random() * small.length)
+  smallPass += smallPass[randomValue]
+}
+
+document.write(`${smallPass}${capPasswrod}`)
