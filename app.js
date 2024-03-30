@@ -73,19 +73,19 @@
 // }
 
 
-var user = prompt("Enter your name: ")
-var check = false
-for(i = user.length -1; i > 0 ;i--){
-  if(user == user.split("").reverse("").join("")){
-    check = true
-    document.write(user + " is a Palindrome.")
-    break
-  }
-}
+// var user = prompt("Enter your name: ")
+// var check = false
+// for(i = user.length -1; i > 0 ;i--){
+//   if(user == user.split("").reverse("").join("")){
+//     check = true
+//     document.write(user + " is a Palindrome.")
+//     break
+//   }
+// }
 
-if(check === false){
-    document.write(`${user}  is not palindrome`)
-}
+// if(check === false){
+//     document.write(`${user}  is not palindrome`)
+// }
 
 
 // var num = +prompt("enter number") // factorial of any number 
